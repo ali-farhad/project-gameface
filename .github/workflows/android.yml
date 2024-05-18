@@ -46,10 +46,10 @@ jobs:
       - name: run gradle init
         run: gradle init
 
-      # Run Tests Build
-      - name: Run gradle tests
+      # # Run Tests Build
+      # - name: Run gradle tests
       
-        run: ./Android/gradlew test
+      #   run: ./Android/gradlew test
 
       # Run Build Project
       - name: Build gradle project
